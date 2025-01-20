@@ -447,7 +447,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- Autres balises meta et liens pour temoignage client -->
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
+        @context": "https://schema.org",
         "@type": "Product",
         "name": "Konsultacija Proricanja putem E-pošte",
         "description": "Proricanje putem e-pošte 24h/7dana sa Frederickom. Pitanja od 6€.",
@@ -456,13 +456,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             "@type": "Brand",
             "name": "ClairvoyanceMedium.com"
         },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "300"
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Jelena" },
+                "datePublished": "2024-12-25",
+                "reviewBody": "Precizna analiza mog ljubavnog i profesionalnog života.",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5" }
+            },
+            {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Marko" },
+                "datePublished": "2024-12-20",
+                "reviewBody": "Pouzdan i efikasan servis.",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5" }
+            }
+        ],
         "offers": {
             "@type": "Offer",
+            "price": "6.00",
             "priceCurrency": "EUR",
-            "price": "6",
             "availability": "https://schema.org/InStock",
-            "priceValidUntil": "2095-12-31",
             "url": "https://clairvoyancemedium.github.io",
+            "priceValidUntil": "2059-12-31",
             "shippingDetails": {
                 "@type": "OfferShippingDetails",
                 "shippingRate": {
@@ -492,42 +513,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             },
             "hasMerchantReturnPolicy": {
                 "@type": "MerchantReturnPolicy",
-                "returnPolicyCategory": "https://schema.org/NoReturnsAccepted"
+                "returnPolicyCategory": "https://schema.org/NoReturnsAccepted",
+                "applicableCountry": "RS"
             }
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "reviewCount": "300"
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Jelena"
-                },
-                "datePublished": "2024-12-25",
-                "reviewBody": "Bila sam skeptična na početku, ali Frederick me je ubedio.",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                }
-            },
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Marko"
-                },
-                "datePublished": "2024-12-20",
-                "reviewBody": "Frederick je pretvorio moje sumnje u sigurnost.",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                }
-            }
-        ]
+        }
     }
     </script>
 
